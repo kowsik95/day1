@@ -1,0 +1,21 @@
+Objects and its Internal Function:
+
+Objects is a complex datatype in Javascript that most widely used in the modern day coding language.
+Object datatypes can have all kinds of primitive datatypes as there is no specific limitation in entering 
+the datas.Objects can have all the primitive datatypes like boolean,string,number,null and store it 
+as a single value.Objects works on "Key:Value" pair where the datatypes can be in any format.For example
+
+var obj = { Name : "Raja",
+            Age  : 32};
+
+here, Name is the key and value is Raja in the property of the object.We can access properties in object
+by the syntax object.property 
+
+Objects can also be written with array that forms Array of objects.Array of objects is given by a example
+below:
+var arrobj = [{ Name : "Raja", Age : 32},{Name : "Ram", Age : 22}]
+
+Objects stores all the different properties in a same memory loaction that helps for easy access of the 
+datas from the database.
+The Speciality of the Objects is that it takes all the datas in property as a string,even if there is number
+object converts it into a string so that we can also use fractional datas.

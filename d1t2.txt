@@ -1,0 +1,14 @@
+HTTP 1.1
+1.HTTP1.1 loads resources in a sequential manner (ie) it loads one after the other.
+2.Some methods and response codes are used.
+3.Keep Alive becomes officially supported.Host header becomes supoorted for virtual domain.
+4.Syntax and semantics are seperated.
+5.Tcp does not support stream level multiplexing.
+
+HTTP 2
+1.HTTP 2 loads resources in random manner.
+2.Support of parellel request transmission by stream.
+3.Addition of flow control function in units of stream.
+4.Addition of prioritization function in units of stream.
+5.Addition of push function.
+
